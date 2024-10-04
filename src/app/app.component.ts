@@ -18,8 +18,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.pass.valueChanges.subscribe((value) => {
-      this.passEntered = CryptoJS.MD5(value).toString() ==='9ad1f3368206df6998fe8496310d8255';
-
+      this.passEntered = CryptoJS.MD5(value).toString() ==='8435ba86da99bd642782320a772567ec';
     });
   }
 }
